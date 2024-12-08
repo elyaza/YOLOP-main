@@ -218,7 +218,7 @@ def infer_yolop(weight="yolop-640-640.onnx",
     
     cv2.imshow("Lane Line Segmentation", ll_seg_mask_bgr)
     cv2.imshow("canny line segmentation",ll_canny_bgr)
-    cv2.waitKey(0)  # Wait until a key is pressed
+    cv2.waitKey(0)  # Wait until a key is 
     cv2.destroyAllWindows()
     
 
